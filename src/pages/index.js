@@ -13,7 +13,7 @@ const IndexPage = () => (
         <div className="col-lg-6 col-md-8 mx-auto">
           <h1 className="fw-light">Hello world ! </h1>
           <p className="lead text-muted">
-            Welcome to this Bootstrap 5 Gatsby Starter
+            Welcome to this Bootstrap 5 Gatsby Starter testttt
           </p>
           <StaticImage
             src="../images/gatsby-astronaut.png"
