@@ -8,7 +8,6 @@ import Seo from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <Seo title="Portfolio Homepage" />
-    <div className="hero-image"></div>
     <section className="hero text-center container">
       <div className="row py-lg-5">
         <div className="col-lg-6 col-md-8 mx-auto">
