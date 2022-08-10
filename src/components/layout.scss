@@ -1,3 +1,50 @@
 //Here you can customize bootstrap
 $primary: #663399;
 @import "~bootstrap/scss/bootstrap";
+
+
+/* The hero image */
+.hero::before {
+    content: '';
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    top: -143px;
+    left: 0px;
+    right: 0px;
+    height: calc(100% + 143px);
+    max-height: 1014px;
+    background: linear-gradient(90deg, #8DA9FC 0%, #B48DD5 100%);
+    background-image: linear-gradient(90deg, rgb(141, 169, 252) 0%, rgb(180, 141, 213) 100%);
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+  }
+  .hero::after {
+    content: '';
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    top: -143px;
+    left: 0px;
+    right: 0px;
+    height: calc(100% + 143px);
+    max-height: 1014px;
+    background: linear-gradient(180deg, rgba(255,255,255,0.9) 50%, rgba(255,255,255,0.2) 100%);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.9) 50%, rgba(255, 255, 255, 0.2) 100%);
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+  }
