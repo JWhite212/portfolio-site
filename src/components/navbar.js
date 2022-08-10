@@ -1,4 +1,5 @@
 import * as React from "react"
+import {useState} from "react"
 import PropTypes from "prop-types"
 import { Link } from "gatsby"
 
@@ -8,11 +9,27 @@ const isActive = ({ isCurrent }) => {
     : { className: "nav-link" }
 }
 
+
+
 const ExactNavLink = props => <Link getProps={isActive} {...props} />
 
 const Navbar = ({ siteTitle }) => {
+
+  //Change navigation when scrolling between opaque/solid.
+const [color, setColor] = useState(false)
+const changeColor = () => {
+  if (window.scrollY >= 200) {
+    setColor(true)
+  } else {
+    setColor(false)
+  }
+}
+window.addEventListener("scroll", changeColor)
+
+
+
   return (
-    <nav className="navbar navbar-expand-md sticky-md-top navbar-light fw-bold bg-opacity-10">
+    <nav className={color ? 'header navbar navbar-expand-md sticky-md-top navbar-light fw-bold bg-primary' : 'header navbar navbar-expand-md sticky-md-top navbar-light fw-bold bg-opacity-10'}>
       <div className="container-fluid">
         <Link to="/" className="navbar-brand" href="#">
           {siteTitle}
