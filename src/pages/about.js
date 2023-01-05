@@ -7,7 +7,7 @@ import Seo from "../components/seo"
 const AboutPage = () => (
   <Layout>
     <Seo title="About Gatsby Bootstrap 5 starter" />
-    <div className="container  my-5">
+    <div className="container my-5">
       <div className="container">
         <h1>What you need to know</h1>
         <p>
