@@ -29,7 +29,7 @@ window.addEventListener("scroll", changeColor)
 
 
   return (
-    <nav className={color ? 'header navbar navbar-expand-md sticky-md-top navbar-light fw-bold bg-primary' : 'header navbar navbar-expand-md sticky-md-top navbar-light fw-bold bg-opacity-10'}>
+    <nav className={color ? 'header navbar navbar-expand-md sticky-md-top navbar-dark fw-bold bg-primary text-white' : 'header navbar navbar-expand-md sticky-md-top fw-bold bg-opacity-10'}>
       <div className="container-fluid">
         <Link to="/" className="navbar-brand" href="#">
           {siteTitle}
