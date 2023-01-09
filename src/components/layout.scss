@@ -1,6 +1,11 @@
 //Here you can customize bootstrap
 $primary: #6610f2;
+$navbar-dark-color: rgba(#fff, .85);
+$navbar-light-color: rgba(#000, .75);
+
+
 @import "~bootstrap/scss/bootstrap";
+
 
 
 /* The hero image */
@@ -45,5 +50,9 @@ $primary: #6610f2;
     background-clip: initial;
     background-color: initial;
   }
+
+  // Navbar header class transition
   .header {transition: .3s ease-in;}
+
+
   
