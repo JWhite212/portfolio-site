@@ -16,6 +16,14 @@ const Layout = ({ children }) => {
     }
   `)
 
+  //Code for smooth scrolling
+  if (typeof window !== "undefined") {
+    // eslint-disable-next-line global-require
+    require("smooth-scroll")('a[href*="#"]')
+  }
+
+
+
   return (
     <div className="container-fluid p-0">
       <Navbar siteTitle={data.site.siteMetadata?.title || `Title`} />

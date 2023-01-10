@@ -52,7 +52,16 @@ window.addEventListener("scroll", changeColor)
               <ExactNavLink to="/">Home</ExactNavLink>
             </li>
             <li className="nav-item">
-              <ExactNavLink to="/about">About</ExactNavLink>
+              <ExactNavLink to="/#about">About</ExactNavLink>
+            </li>
+            <li className="nav-item">
+              <ExactNavLink to="/#skills">Skills</ExactNavLink>
+            </li>
+            <li className="nav-item">
+              <ExactNavLink to="/#projects">Projects</ExactNavLink>
+            </li>
+            <li className="nav-item">
+              <ExactNavLink to="/#contact">Contact Me</ExactNavLink>
             </li>
           </ul>
         </div>
