@@ -1,12 +1,13 @@
 //Here you can customize bootstrap
 $primary: #6610f2;
 $navbar-dark-color: rgba(#fff, .85);
-$navbar-light-color: rgba(#000, .75);
-
+$navbar-light-color: rgba(#000, .85);
 
 @import "~bootstrap/scss/bootstrap";
 
-
+.pe-6 {
+  padding-right: ($spacer * 15) !important;
+}
 
 /* The hero image */
 .hero::before {

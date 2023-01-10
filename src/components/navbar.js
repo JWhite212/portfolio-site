@@ -29,7 +29,7 @@ window.addEventListener("scroll", changeColor)
 
 
   return (
-    <nav className={color ? 'header navbar navbar-expand-md sticky-md-top fw-bold navbar-dark bg-primary bg-opacity-75 text-white' : 'header navbar navbar-expand-md sticky-md-top fw-bold navbar-light bg-opacity-10'}>
+    <nav className={color ? 'header navbar navbar-expand-md sticky-md-top mx-auto fw-bold navbar-light bg-white bg-opacity-75' : 'header navbar navbar-expand-md sticky-md-top fw-bold navbar-light bg-opacity-10'}>
       <div className="container-fluid">
         <Link to="/" className="navbar-brand" href="#">
           {siteTitle}
@@ -47,7 +47,7 @@ window.addEventListener("scroll", changeColor)
         </button>
 
         <div className="collapse navbar-collapse" id="main-navbar">
-          <ul className="navbar-nav me-auto mb-2 mb-md-0">
+          <ul className="navbar-nav mx-auto pe-6 mb-2 mb-md-0">
             <li className="nav-item">
               <ExactNavLink to="/">Home</ExactNavLink>
             </li>
