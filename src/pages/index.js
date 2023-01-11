@@ -150,8 +150,6 @@ const IndexPage = () => (
         </Link>
       </div>
     </section>
-
-    
   </Layout>
 )
 
